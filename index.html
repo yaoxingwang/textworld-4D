@@ -47,10 +47,39 @@
     </div>
 </header>
 
-<section class="video-hero" id="hero">
+<section class="demo-section" id="demo-1">
     <div class="container">
-        <div class="hero-video-wrap">
-            <video class="hero-video" autoplay muted loop playsinline preload="metadata" src="Videos/wechat.mp4"></video>
+        <h2>Demo 1</h2>
+        <p class="section-desc">
+            Prompt → reference image → generated video.
+        </p>
+        <div class="demo-triple-grid">
+            <div class="demo-panel demo-text-panel">
+                <div class="demo-panel-label">Prompt</div>
+                <p class="prompt-text">
+                    A first-person view from a strictly stationary observation point on a narrow forest path at night. Towering trunks and dense undergrowth form a dark natural corridor, with the trail bending deeper into mist toward a faint warm light hidden among distant branches. A young red fox stands ahead on the wet path, facing a chain of glowing blue fireflies that mark the route between trees. The ground is layered with slick mud, wet leaves, mossy stones, shallow puddles, and exposed roots, while a nearby massive trunk bears fresh claw marks cut into rough bark. Cool moonlight filters through the canopy, creating silver reflections and a mysterious but inviting atmosphere. The observer's perspective remains fixed, with no dynamic camera movement and no actions taken by the person recording. Autonomous motion continues: fireflies drift and pulse, fog curls through the trees, leaves tremble, puddles ripple, and the fox's ears and tail shift subtly.
+                </p>
+            </div>
+            <div class="demo-panel">
+                <div class="demo-panel-label">Reference Image</div>
+                <img class="demo-image" src="Images/forest-reference.jpg" alt="Reference image">
+            </div>
+            <div class="demo-panel">
+                <div class="demo-panel-label">Generated Video</div>
+                <video class="demo-video" autoplay muted loop playsinline preload="metadata" src="Videos/wechat.mp4"></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="demo-section demo-section-alt" id="demo-2">
+    <div class="container">
+        <h2>Demo 2</h2>
+        <p class="section-desc">
+            Independent video sample.
+        </p>
+        <div class="single-demo-card">
+            <video class="single-demo-video" autoplay muted loop playsinline preload="metadata" src="Videos/demo-2.mp4"></video>
         </div>
     </div>
 </section>
