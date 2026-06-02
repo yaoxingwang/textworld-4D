@@ -233,7 +233,8 @@ section:nth-child(even) { background-color: var(--color-bg-alt); }
 }
 
 .single-demo-card {
-    max-width: 820px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* ==================== SECTION HEADINGS ==================== */
