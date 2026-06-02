@@ -76,10 +76,50 @@
     <div class="container">
         <h2>Demo 2</h2>
         <p class="section-desc">
-            Independent video sample.
+            Prompt → reference image → generated video.
         </p>
-        <div class="single-demo-card">
-            <video class="single-demo-video" autoplay muted loop playsinline preload="metadata" src="Videos/demo-2.mp4"></video>
+        <div class="demo-top-grid">
+            <div class="demo-panel demo-text-panel">
+                <div class="demo-panel-label">Prompt</div>
+                <p class="prompt-text">
+                    A top-down, first-person perspective from a fixed overhead viewpoint looking down at a worker's station in a packaging facility. The worker, clad in dark clothing, stands directly over a green motorized conveyor belt system integrated with electronic labeling and control machinery. A keyboard and a small monitoring display screen labeled "B1040 PRO" are positioned beside the conveyor belt, while wires, metal brackets, and mechanical components flank the workspace. To the right, a bright blue plastic crate sits on the light-colored tiled floor, packed with neatly aligned, dark-red packaged snack bars.<br/><br/>
+                    The scene is highly textured with the smooth plastic of the packaging, the matte finish of the industrial machinery, the metallic gloss of the equipment frame, and the stark contrast of the blue plastic crate against the floor. The environment is illuminated by bright, even overhead factory lighting, casting soft shadows beneath the worker’s hands and the machinery.<br/><br/>
+                    The observer's perspective remains strictly stationary with no camera movement. Repetitive, manual action animates the scene: the worker repeatedly uses their right hand to place individual snack bars one by one onto the moving green conveyor belt, while their left hand holds a small batch of bars. Once the handful is depleted, the worker reaches down into the blue crate on the floor to grab a fresh handful of snack bars, continuing the continuous, rhythmic cycle of loading the conveyor line.
+                </p>
+            </div>
+            <div class="demo-panel">
+                <div class="demo-panel-label">Reference Image</div>
+                <img class="demo-image" src="Images/demo2-reference.jpeg" alt="Demo 2 reference image">
+            </div>
+        </div>
+        <div class="demo-main-panel">
+            <div class="demo-panel-label">Generated Video</div>
+            <video class="demo-video" autoplay muted loop playsinline preload="metadata" src="Videos/demo-2.mp4"></video>
+        </div>
+    </div>
+</section>
+
+<section class="demo-section" id="demo-3">
+    <div class="container">
+        <h2>Demo 3</h2>
+        <p class="section-desc">
+            Prompt → reference image → generated video.
+        </p>
+        <div class="demo-top-grid">
+            <div class="demo-panel demo-text-panel">
+                <div class="demo-panel-label">Prompt</div>
+                <p class="prompt-text">
+                    A first-person view from a strictly stationary observation point low on a worn wooden floor inside a cluttered, sunlit room. A miniature red race car sits on a cracked plank path surrounded by scattered marbles, colorful blocks, buttons, books, and small toy pieces, with table legs forming a looming overhead structure and an open doorway leading into the dim back of the room. The space is textured with splintered floorboards, peeling wall paint, dusty furniture, glassy marble reflections, and soft fabric shadows. Slatted afternoon sunlight streams through the window blinds, creating warm bands of light and a nostalgic, slightly mysterious atmosphere. The observer's perspective remains fixed, with no dynamic camera movement and no actions taken by the person recording. Autonomous motion animates the room: dust motes drift through sunbeams, loose marbles wobble faintly, and a cat's shadow passes silently near the doorway.
+                </p>
+            </div>
+            <div class="demo-panel">
+                <div class="demo-panel-label">Reference Image</div>
+                <img class="demo-image" src="Images/demo3-reference.jpeg" alt="Demo 3 reference image">
+            </div>
+        </div>
+        <div class="demo-main-panel">
+            <div class="demo-panel-label">Generated Video</div>
+            <video class="demo-video" autoplay muted loop playsinline preload="metadata" src="Videos/demo-3.mp4"></video>
         </div>
     </div>
 </section>
